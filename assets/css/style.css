@@ -1,0 +1,57 @@
+body {
+  background-color: #87DD3B;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Urbanist", sans-serif;
+  color: black;
+}
+.item-card {
+  padding: 18px;
+  background-color: white;
+  border-radius: 16px;
+  width: 412px;
+  position: relative;
+  margin: auto;
+}
+.item-card-light {
+  background-color: white;
+}
+.item-card-dark {
+  background-color: #1E1E1E;
+}
+.card-img {
+  border-radius: 16px;
+  width: 100%;
+}
+h3 {
+  font-weight: 600;
+  font-size: 36px;
+}
+p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #AEAEAE;
+}
+button {
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #87DD3B;
+  color: white;
+  border-radius: 16px;
+  width: 186px;
+  line-height: 63px;
+  margin-left: auto;
+  border: none;
+}
+.btn-heart {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+.item-card-dark {
+  color: white !important;
+}
+.item-card-dark button {
+  color: #87DD3B;
+  background-color: #383838;
+}
